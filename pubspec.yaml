@@ -1,0 +1,33 @@
+name: fetch_graphql_schema
+description: Fetch and print the GraphQL schema from a GraphQL HTTP endpoint and make code generation easier
+version: 0.0.1-dev.1
+homepage: https://github.com/rkishan516/fetch_graphql_schema
+repository: https://github.com/rkishan516/fetch_graphql_schema
+topics: [cli, graphql, schema]
+
+environment:
+  sdk: ">=3.0.0 <4.0.0"
+
+dependencies:
+  args: ^2.4.1
+  path: ^1.9.0
+  pubspec_yaml: ^3.1.0
+  xdg_directories: ^1.0.0
+  pub_updater: ^0.4.0
+  mason_logger: ^0.2.10
+  cli_completion: ^0.4.0
+  scoped_zone: ^0.1.0+1
+  http: ^1.1.2
+  leto_schema: ^0.0.1-dev.6
+  leto: ^0.0.1-dev.2
+  json_path: ^0.7.0
+  valida: ^0.2.0
+  async: ^2.11.0
+  collection: ^1.18.0
+
+dev_dependencies:
+  lints: ^3.0.0
+  test: ^1.24.7
+
+executables:
+  fetch_graphql_schema:
